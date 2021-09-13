@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+      <template id="e_invoice_style" name="Custom E-Invoice Style" inherit_id="web.report_assets_common">
+        <xpath expr="." position="inside">
+
+
+            <link t-if="lang_direction == 'ltr'" rel="stylesheet"  href="/e_invoice/static/src/css/e_invoice.css"/>
+            <link t-if="lang_direction == 'rtl'" rel="stylesheet"  href="/e_invoice/static/src/css/e_invoice_rtl.css"/>
+        </xpath>
+     </template>
+
+    </odoo>

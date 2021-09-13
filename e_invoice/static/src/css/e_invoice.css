@@ -1,0 +1,257 @@
+@font-face {
+    font-family: 'Calibri-Bold';
+    font-weight: bold;
+    src: local('Calibri-Bold'), local('Calibri-Bold'), url(/e_invoice/static/src/fonts/Calibri-Bold.ttf) format('truetype');
+}
+
+.new5 {
+    font-family: 'Calibri-Bold'
+
+}
+
+.new5
+{
+    background: #fff;
+}
+
+.new5 .col1 h2
+{
+    color: #004378;
+    font-weight: bold;
+}
+
+.new5 .col1a
+{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.new5 .col1a span
+{
+    direction: ltr;
+}
+
+.new5 .h41
+{
+    color: #636161;
+}
+
+.new5 .h42
+{
+    color: #525e5e;
+}
+
+.new5 .r2
+{
+    margin-top: 35px;
+    text-align: center;
+}
+
+.new5 .r2 h4
+{
+    font-size: 16px !important;
+}
+
+.new5 .customer-vatid
+{
+    margin-left:35px;
+}
+
+.new5 .mobileno
+{
+    margin-left:35px;
+}
+
+.new5 .vat
+{
+    margin-left:15px;
+}
+
+.new5 .total
+{
+    margin-left: 15px;
+}
+
+.new5 .unit
+{
+    margin-left: 15px;
+}
+
+.new5 .quantity
+{
+    margin-left: 15px;
+}
+
+.new5 .desc
+{
+    margin-left: 15px;
+}
+
+.new5 .col3a
+{
+    margin-top: 15px;
+    text-align: center;
+    background-color: lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.new5 .col3a span
+{
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center !important;
+    display: block;
+}
+
+.new5 .r3
+{
+    margin-top: 25px;
+}
+
+.new5 .r3a
+{
+    background: #fff;
+}
+
+.new5 .table-bordered td, .new5 .table-bordered th {
+    border: 1px solid #0a4776 !important;
+    border-left: 1px solid #0a4776 !important;
+    vertical-align: middle !important;
+}
+
+.new5 .r4
+{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.new5 .r4 h4
+{
+    font-size: 16px;
+}
+
+.new5 .r4a
+{
+    background: lightgray;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+
+.new5 .r4 h41
+{
+    color: #a3a3a3;
+    font-size: 16px;
+}
+
+.new5 .r4 h42
+{
+    color: #707e89;
+    font-size: 16px;
+}
+
+
+.new5 .new5t3 th, .new5 .new5t3 td
+{
+    text-align: center;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding: 0px;
+/*    border: 0px !important;*/
+    font-size: 15px;
+}
+
+.new5 .new5t3 .table-bordered td, .new5 .new5t3 .table-bordered th{
+    border: 1px solid #0a4776 !important;
+}
+
+.new5t3 .line-name
+{
+    padding-left:2px !important;
+    padding-right:18px !important;
+}
+
+.r6
+{
+    direction: rtl;
+}
+
+.r6a
+{
+    margin-right:15px;
+}
+
+.new5 .r6a .table-bordered td, .new5 .r6a .table-bordered th {
+    border: 1px solid #0a4776 !important;
+    border-left: 1px solid #0a4776 !important;
+    text-align: center;
+}
+
+.new5 .notes
+{
+    margin-right:40px;
+}
+
+.new5 .note
+{
+    border: 1px solid #0a4776;
+    padding: 5px;
+}
+
+.new5 .contract
+{
+    background: #fff;
+    margin-top: 15px;
+}
+
+.new5 .contract h4
+{
+    color: #fff;
+    text-align: center;
+    background: #0a4776;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+
+.new5 .contract .table-bordered td, .new5 .contract .table-bordered th {
+    border: 1px solid #f5f5f5 !important;
+    border-left: 1px solid #f5f5f5 !important;
+    text-align: center;
+}
+
+.new5 .contract-1
+{
+        color: #fff;
+    background-color: #0a4776;
+    margin-top: 5px;
+}
+
+.new5 .contract-1 h4
+{
+    font-size: 16px;
+    text-align: center;
+        padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.new5 .r7
+{
+    border: 1px solid #5e7279;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 15px;
+}
+
+.new5 .r7 h4
+{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+}

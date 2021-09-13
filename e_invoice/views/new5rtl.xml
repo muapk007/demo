@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <report
+                id="new5rtl_report_account_move"
+                string="Print Invoice New5rtl"
+                model="sale.order"
+                report_type="qweb-pdf"
+                file="e_invoice.account_move_template_reports_new5rtl"
+                name="e_invoice.account_move_template_reports_new5rtl"
+                />
+
+        <template id="account_move_report_docs_new5rtl">
+<t t-call="web.internal_layout">
+<t t-foreach="docs" t-as="o">
+
+<div class="page container new5rtl">
+    
+
+    
+    <div class="row r1">
+                        
+            <div style="width:570px;padding-right:25px;margin-top:35px;" class="col1">
+                <div style="text-align:right;">
+                    <h2>INVOICE: INV/2021/0065</h2>                    
+                </div>
+                <div class="col1a" style="text-align:right;">
+                    <span>TeleNoc - هلكون لتقنية المعلومات</span><br/>
+                    <span>VAT ID: 300505443300003</span><br/>
+                    <span>Email: contact@telenoc.org</span>
+                </div>
+            </div>
+            
+            <div style="width:570px;margin-top:35px;padding-left:15px;" class="">
+                <div style="text-align:left;">
+                <img style="width:100px;height:100px;" src="/e_invoice/static/src/img/qrcode.png" />
+                </div>
+            </div>
+            
+          </div>
+    
+       <div class="row r2">
+                <div style="width:380px;">
+                    <div class="col3">
+                        <div style="padding-left:23px;">
+                            <h4 class="h41">تاري خ الفاتورة</h4>
+                        <h4 class="h42">Invoice Date</h4>
+                        </div>
+                        <div class="col3a" style="margin-right: 20px;">
+                            <span>07/04/2021</span>
+                        </div>
+                    </div>
+                </div>
+              
+              <div style="width:380px;">
+                    <div style="padding-left:23px;">
+                    <h4 class="h41">تاريخ الاستحقاق</h4>
+                        <h4 class="h42">Due Date</h4>
+                  </div>
+                  
+                  <div class="col3a" style="margin-right: 25px;width:330px;">
+                            <span>07/04/2021</span>
+                        </div>
+                </div>
+              
+              <div style="width:380px;">
+                    <div style="padding-left:23px;">
+                        <h4 class="h41">مصدر</h4>
+                    <h4 class="h42">Source</h4>
+                  </div>
+                  <div class="col3a" style="padding-top: 3px;padding-bottom: 3px;margin-left: 25px;">
+                            <span style="font-size: 14px;">جدة - شارع الام ري محمد بن عبد العزيز برج بغلف الدور السابع</span>
+                        </div>
+                </div>
+              
+             
+          </div>
+    
+       <div class="row r3" style="background-color: #fff;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 15px">
+            
+                <div style="width:525px;margin-left:10px;">
+                    <table class="table table-bordered" style="border: 1px solid #0a4776 !important;font-size: 14px;">
+                <tr style="text-align: center;">
+        
+          <td style="font-size: 17px;
+    display: table;
+    text-align: center;
+    width: 225px !important;
+    border: none !important;">
+              <span style="background-color: #0c4676;
+    color: #fff;
+    width: 100%;
+    display: table;">اسم العميل</span><span>Customer Name</span></td>
+                    <th scope="row" style="width: 300px !important;">شكة البيوت الإقتصادية للمقاولا</th>
+      </tr>
+            </table>
+              </div>
+              
+              <div style="width:525px;margin-right:35px;">
+                <table class="table table-bordered" style="border: 1px solid #0a4776 !important;font-size: 14px;">
+                <tr style="text-align: center;">
+        
+          <td style="font-size: 17px;
+    display: table;
+    text-align: center;
+    width: 225px !important;
+    border: none !important;">
+              <span style="background-color: #0c4676;
+    color: #fff;
+    width: 100%;
+    display: table;">الرقم ال ر ضي ي ب للعميل</span><span>.Customer's VAT ID No
+</span></td>
+                    <th scope="row" style="width: 300px !important;">10152554500003
+</th>
+      </tr>
+            </table>
+              </div>
+              
+              
+              
+             
+              
+          </div>
+    
+     <div class="row" style="background-color: #fff;
+    margin-left: 0px;
+    margin-right: 0px;padding-top:20px;padding-bottom:15px;margin-top:3px;">
+             <div style="width:525px;margin-left:10px;">
+                <table class="table table-bordered" style="border: 1px solid #0a4776 !important;font-size: 14px;">
+                <tr style="text-align: center;">
+        
+          <td style="font-size: 17px;
+    display: table;
+    text-align: center;
+    width: 225px !important;
+    border: none !important;">
+              <span style="background-color: #0c4676;
+    color: #fff;
+    width: 100%;
+    display: table;">تبوك</span><span>Address
+</span></td>
+                    <th scope="row"  style="width: 300px !important;">
+</th>
+      </tr>
+            </table>
+              </div>
+              
+              <div style="width:525px;margin-right:35px;">
+                <table class="table table-bordered" style="border: 1px solid #0a4776 !important;font-size: 14px;">
+                <tr style="text-align: center;">
+        
+          <td style="font-size: 17px;
+    display: table;
+    text-align: center;
+    width: 225px !important;
+    border: none !important;">
+              <span style="background-color: #0c4676;
+    color: #fff;
+    width: 100%;
+    display: table;">التليفون المحمول</span><span>Mobile
+</span></td>
+                    <th scope="row"  style="width: 300px !important;">10152554500003
+</th>
+      </tr>
+            </table>
+              </div>
+          </div>
+    
+    
+    <div class="row r4">
+            <div style="width:170px;margin-right:15px;">
+              <div class="r4a">
+                <h4 class="h41">ال ر ضيبة % 1</h4>
+                  <h4 class="h42">VAT %15</h4>
+                </div>
+            </div>
+              
+              <div style="width:170px;margin-right:15px;">
+              <div class="r4a">
+                <h4 class="h41">الإجما ي ل</h4>
+                  <h4 class="h42">Total</h4>
+                </div>
+            </div>
+              
+              <div style="width:170px;margin-right:15px;">
+              <div class="r4a">
+                <h4 class="h41">سعر الوحدة</h4>
+                  <h4 class="h42">Unit Price</h4>
+                </div>
+            </div>
+              
+              <div style="width:170px;margin-right:15px;">
+              <div class="r4a">
+                <h4 class="h41">الكمية</h4>
+                  <h4 class="h42">Quantity</h4>
+                </div>
+            </div>
+              
+              <div style="width:355px;margin-right:15px;">
+              <div class="r4a">
+                <h4 class="h41">البي ان</h4>
+                  <h4 class="h42">Description</h4>
+                </div>
+            </div>
+              
+          </div>
+    
+     <div class="row r5 new5t3" style="margin-left:0px;margin-right:0px;">
+            <table class="table table-bordered new5t3" style="margin-top:10px;">
+<!--
+    <thead>
+      
+        <tr>
+            <th style="width:166px;border-radius: 15px;"></th>
+        <th style="width:166px;border-radius: 15px;"></th>
+                <th style="width:166px;border-radius: 15px;"></th>
+                <th style="width:160px;border-radius: 15px;"></th>
+        <th  style="width:353px;border-radius: 15px;"></th>
+        </tr>
+ 
+    </thead>
+-->
+                
+                <colgroup>
+                    <col style="width:166px;border-radius: 15px;border: 1px solid #0a4776 !important;" />
+        <col style="width:172px;border-radius: 15px;border: 1px solid #0a4776 !important;" />
+                <col style="width:172px;border-radius: 15px;border: 1px solid #0a4776 !important;" />
+                <col style="width:180px;border-radius: 15px;border: 1px solid #0a4776 !important;" />
+        <col style="width:340px;border-radius: 15px;border: 1px solid #0a4776 !important;" />
+                </colgroup>
+
+              
+    <tbody>
+      <tr style="text-align:center;">
+        <td>234,645.13</td>
+        <td>1,564,300.87</td>
+        <td>1,564,300.87</td>
+          <td>1</td>
+          <td>دفعه مقدما نسبة 64 % من قيمة العقد بتاري خ 29 - 6 - 2021</td>
+      </tr>
+        <tr style="text-align:center;">
+        <td>234,645.13</td>
+        <td>1,564,300.87</td>
+        <td>1,564,300.87</td>
+          <td>1</td>
+          <td>دفعه مقدما نسبة 64 % من قيمة العقد بتاري خ 29 - 6 - 2021</td>
+      </tr>
+        <tr style="text-align:center;">
+        <td>234,645.13</td>
+        <td>1,564,300.87</td>
+        <td>1,564,300.87</td>
+          <td>1</td>
+          <td>دفعه مقدما نسبة 64 % من قيمة العقد بتاري خ 29 - 6 - 2021</td>
+      </tr>
+        <tr style="text-align:center;">
+        <td>234,645.13</td>
+        <td>1,564,300.87</td>
+        <td>1,564,300.87</td>
+          <td>1</td>
+          <td>دفعه مقدما نسبة 64 % من قيمة العقد بتاري خ 29 - 6 - 2021</td>
+      </tr>
+        <tr style="text-align:center;">
+        <td>234,645.13</td>
+        <td>1,564,300.87</td>
+        <td>1,564,300.87</td>
+          <td>1</td>
+          <td>دفعه مقدما نسبة 64 % من قيمة العقد بتاري خ 29 - 6 - 2021</td>
+      </tr>
+        <tr style="text-align:center;">
+        <td>234,645.13</td>
+        <td>1,564,300.87</td>
+        <td>1,564,300.87</td>
+          <td>1</td>
+          <td>دفعه مقدما نسبة 64 % من قيمة العقد بتاري خ 29 - 6 - 2021</td>
+      </tr>
+        <tr style="text-align:center;">
+        <td>234,645.13</td>
+        <td>1,564,300.87</td>
+        <td>1,564,300.87</td>
+          <td>1</td>
+          <td>دفعه مقدما نسبة 64 % من قيمة العقد بتاري خ 29 - 6 - 2021</td>
+      </tr>
+        <tr style="text-align:center;">
+        <td>234,645.13</td>
+        <td>1,564,300.87</td>
+        <td>1,564,300.87</td>
+          <td>1</td>
+          <td>دفعه مقدما نسبة 64 % من قيمة العقد بتاري خ 29 - 6 - 2021</td>
+      </tr>
+        <tr style="text-align:center;">
+        <td>234,645.13</td>
+        <td>1,564,300.87</td>
+        <td>1,564,300.87</td>
+          <td>1</td>
+          <td>دفعه مقدما نسبة 64 % من قيمة العقد بتاري خ 29 - 6 - 2021</td>
+      </tr>
+    </tbody>
+  </table>
+          </div>
+    
+    
+              <div class="row r6" style="margin-top: 25px;">
+            <div style="width:490px;margin-left:15px;" class="r6a">
+                <table class="table table-bordered" style="border: 1px solid #000 !important;">
+                <tr style="width: 267px;">
+        <th scope="row" style="background-color: #0a4776 !important;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #0a4776 !important;
+    width: 40%;
+    color: #fff;
+    padding-top: 8px;">34,414,619.14</th>
+          <td style="font-size:14px;"><span style="font-weight: bold;">قيمة الأعمال المنفذة )قبل ر ضيبة القيمة المضافة(</span><br/><span style="color: #707e89;">Subtotal W/O VAT</span></td>
+      </tr>
+            </table>
+                
+                <table class="table table-bordered" style="border: 1px solid #000 !important;">
+                <tr style="width: 267px;">
+        <th scope="row" style="background-color: #0a4776 !important;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #0a4776 !important;
+    width: 40%;
+    color: #fff;
+    padding-top: 8px;">34,414,619.14</th>
+          <td style="font-size:14px;"><span style="font-weight: bold;">ضيبة القيمة المضافة</span><br/><span style="color: #707e89;">VAT Amount</span></td>
+      </tr>
+            </table>
+                
+                <table class="table table-bordered" style="border: 1px solid #000 !important;">
+                <tr style="width: 267px;">
+        <th scope="row" style="background-color: #0a4776 !important;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #0a4776 !important;
+    width: 40%;
+    color: #fff;
+    padding-top: 8px;">34,414,619.14</th>
+          <td style="font-size:14px;"><span style="font-weight: bold;">الاجما ي ل مع ال ر ضيبة</span><br/><span style="color: #707e89;">Total with VAT</span></td>
+      </tr>
+            </table>
+                
+               <table class="table table-bordered" style="border: 1px solid #000 !important;">
+                <tr style="width: 267px;">
+        <th scope="row" style="background-color: #0a4776 !important;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #0a4776 !important;
+    width: 40%;
+    color: #fff;
+    padding-top: 8px;">34,414,619.14</th>
+          <td style="font-size:14px;"><span style="font-weight: bold;">صاف الفاتورة</span><br/><span style="color: #707e89;">Net Total</span></td>
+      </tr>
+            </table>
+                
+                
+              </div>
+              
+              <div style="width:560px;margin-left:40px;">
+                <div class="note">
+                    <h5 style="direction:rtl;">Note:</h5>
+                  <p style="direction:rtl;">Please use the following communication for your payment : INV/2021/0065</p>
+                    Payment terms: Immediate Payment
+                  </div>
+
+              </div>
+          </div>
+    
+    <div class="row r7">
+            <div style="width: 100%;">
+                <div><h4>فقط مليون وسبعمائة وثمانية وتسعون ألفا وتسعمائة وستة وأربعون ريال لا غ ري
+</h4></div>
+              </div>
+          </div>
+    
+    <div class="footer" style="text-align: center;padding:0px;">
+            <div style="margin-bottom: 0px;">
+                <p style="font-weight: 600;font-size:14px;">Tel: +966 1146 66664 110 Ext.101/105/999 <span style="padding-left:10px;">Web: http://www.telenoc.org</span></p>
+              <p style="font-weight: 600;font-size:14px;">Al Mousa Office Buildings, Olaya, Tower# 4, Floor# 2, Office# 425 ,Riyadh,Saudi Arabia
+Bank: Riyadh Bank-RIBLSARIXXX,IBAN #: SA3420000002243013429940|Riyadh</p>
+              </div>
+
+          </div>
+    
+
+    
+</div>
+
+</t>
+</t>
+
+</template>
+
+        <template id="account_move_template_reports_new5rtl">
+            <t t-call="web.html_container">
+                <t t-set="data_report_margin_top" t-value="1"/>
+                <t t-set="data_report_orientation" t-value="Landscape"/>
+                <t t-set="data_report_header_spacing" t-value="0"/>
+                <t t-foreach="docs" t-as="o">
+                    <t t-call="e_invoice.account_move_report_docs_new5rtl"
+                       t-lang="request.env.user.partner_id.lang"/>
+                </t>
+            </t>
+        </template>
+    </data>
+</odoo>

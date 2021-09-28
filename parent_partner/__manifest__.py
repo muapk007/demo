@@ -19,7 +19,7 @@
     'version': '14.0.0.0',
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'contacts', 'account','account_reports'],
+    'depends': ['base', 'contacts', 'account'],
 
     # always loaded
     'data': [

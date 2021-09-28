@@ -35,11 +35,6 @@
         </field>
     </record>
 
-    <template id="account_reports_backendDA" inherit_id="web.assets_backend" active="True">
-        <xpath expr="." position="inside">
-            <script type="text/javascript" src="/parent_partner/static/src/js/account.js"></script>
-        </xpath>
-    </template>
 </odoo>
 
 
